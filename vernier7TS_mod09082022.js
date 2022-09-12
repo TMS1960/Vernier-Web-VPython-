@@ -4,6 +4,7 @@ let dataready = false
 let period = 10 // default
 let select
 let startbutton, stopbutton
+let ver = new vernier()
 
 class vernier {
     constructor() {
@@ -106,8 +107,6 @@ class vernier {
         return ret
     }
 }
-
-let ver = new vernier()
 
 function initialize(f) {
     if (f.text == 'Start') {
