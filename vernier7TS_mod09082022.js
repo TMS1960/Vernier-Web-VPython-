@@ -78,7 +78,7 @@ class vernier {
     ready() { 
         if (!this.running) return false
         else {
-            return false
+            return true
         }
     }
     read(args) { // read(5) if one device or read(0,5) or read(1,5) if two devices
